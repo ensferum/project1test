@@ -149,9 +149,14 @@ $("#user-search-plot").on("click", function() {
     }
 });
 
+
+
+//OMDB API
+
+
 function displayMovieInfo() {
 
-       var movie = $(this).attr("data-name");
+       var movie = $(this).attr("#user-search-plot");
         var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=40e9cece";
 
        // Creating an AJAX call for the specific movie button being clicked
