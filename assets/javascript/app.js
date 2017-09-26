@@ -132,6 +132,8 @@ database.ref("/movies").on("child_added", function(x) {
     });
 });
 
+
+
 // Listen for Second Button Click ************************API BY SHARAD HERE
 
 $("#user-search-plot").on("click", function() {
